@@ -1,6 +1,51 @@
 # Blocks.json
 ----
+Структура block.json
 
+```
+{
+  "componentsOrder": [
+    null
+  ],
+  "components": {
+    "blockId": {
+      "name": null,
+      "id": null,
+      "isEditing": null,
+      "isInit": null
+    }
+  },
+  "images": {
+    "imageId": null
+  },
+  "variants": {
+    "variantsId": {
+      "id": null,
+      "question": null,
+      "answer": null,
+      "points": null,
+      "attempts": null,
+      "comments": null,
+      "hints": {
+        "text": null,
+        "isVisible": null
+      },
+      "options": [
+        null
+      ]
+    }
+  },
+  "options": {
+    "optionsId": {
+      "id": null,
+      "text": null,
+      "imgId": null,
+      "isValid": null,
+      "checked": null
+    }
+  }
+}
+```
 ## Components Order
 
 Поле ```componentsOrder``` содержит уникальные идентификаторы, которые присваиваются каждому компоненту, который был создан в редакторе.
