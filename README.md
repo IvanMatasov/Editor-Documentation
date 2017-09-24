@@ -1,5 +1,5 @@
 # Blocks.json
-----
+
 Структура block.json
 
 ```
