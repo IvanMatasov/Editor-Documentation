@@ -94,8 +94,8 @@
 Поле ```images``` содержит информацию о всех картинках, которые были загружены через компоненты.
 ``` 
 "images": {
-		d68d49e2-a64a-40f9-b9a4-a05ebb5822d6.png: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAACJCAIAAABWwcYy";
-   	}
+	d68d49e2-a64a-40f9-b9a4-a05ebb5822d6.png: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAACJCAIAAABWwcYy";
+    }
 ```
 Где ключом является ```d68d49e2-a64a-40f9-b9a4-a05ebb5822d6.png``` - уникальное имя картинки, а его значением - представление картинки закодированное в формат Base64.
 
